@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surajfitness - The best gym in the town</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+    <style>
+        .section1{
+            background-image: url('Gym_bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 500px; /* Example height */
+            width: 100%; /* Example width */
+
+        }
+    </style>
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue" style="font-family:'Times New Roman', Times, serif; color:black" >Galaxy Fitness center</div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <!-- <div class=" text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="">
+                        </div> -->
+                        <h1 class="my-1 text-center" style="color: aqua;">The best fitness Gym in the town is here</h1>
+                        <p class=" text-center">Welcome to our state-of-the-art Galaxy fitness center, where your health and 
+                            wellness are our top priorities. Our gym is equipped with the latest fitness technology 
+                            and offers a wide range of facilities to cater to all your fitness needs. 
+                            Whether you’re a beginner or a seasoned athlete, we have something for everyone.</p>
+                            <!-- Display the countdown timer in an element -->
+                             <br>
+                             <br>
+                            <p class="deal text-center" style="color: rgb(36, 216, 90);">Resgistration Closes in :  <span id="demo"></span></p>
+                            <div class="buttons">
+                                <br/>
+                                <br/>
+                                <button class="btn">Join now</button>
+                                <button class="btn">Contact Us</button>
+                            </div>
+                    </div>
+                    <!-- <div class="topright flex justify-center">
+                        <img class="gymimg" src="gymboy.png" alt="">
+                    </div> -->
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2">At our gym, we offer flexible membership options to suit your lifestyle and budget.
+                     Whether you’re looking for a short-term commitment or a long-term fitness journey, 
+                     we have a plan for you.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Sort-term plan</h2>
+                        <ul>
+                            <li class="highlighted">₹400/month</li>
+                            <li>membership not included</li>
+                            <li>1 Hrs of Gym/Day</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>long - Plan</h2>
+                        <ul>
+                            <li class="highlighted">₹350/month For 6 Months</li>
+                            <li>membership included</li>
+                            <li>2 Hrs of Gym/Day</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pro - Plan</h2>
+                        <ul>
+                            <li class="highlighted">₹4000/year</li>
+                            <li>membership included</li>
+                            <li>2 Hrs of Gym/Day</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Compare Plans</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th></th><th>sort - term</th>
+                          <th>long-term</th>
+                          <th>pro</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Public</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Diet-Routine</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+              
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Permissions</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Sharing</th>
+                          <td>-</td>
+                          <td>-</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Membership</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Extra security</th>
+                          <td>-</td>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+                    </table>
+            </section>
+            <hr>
+            <hr>
+            <section class="contact-section" style="background-color: rgb(11, 11, 11);">
+                <div class="contact-container">
+                    <h2>Contact Us</h2>
+                    <form id="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name : </label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="email">Email : </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="message">Message : </label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <br>
+                        <button type="submit" id="Submitbutton" >Submit</button>
+                    </form>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; GalaxyFitness.com | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
